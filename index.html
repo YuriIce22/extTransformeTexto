@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extensão TT</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
-    <h1>TT<h1>
 
+    <!-- ESTRUTURA DO PROGRAMA -->
+    <div class="container-pai">
+
+        <header class="cabecalho"></header> <!-- Conteudo alunos -->
+
+        <input type="text" name="text" id="input-text" class="input-text" maxlength="500" placeholder="Digite seu texto aqui!" required>
+
+        <div class="container-button">
+
+            <button>MAIÚSCULAS</button>
+            <button>minúsculas</button>
+
+        </div>
+
+        <div name="result" id="result" class="result"> Resultado: </div>
+
+    </div>
+
+    <!-- lINK DO JAVASCRIT -->
+    <script src="script.js"></script>
 </body>
 </html>
