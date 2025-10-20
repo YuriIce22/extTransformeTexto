@@ -11,4 +11,15 @@ document.addEventListener("DOMContentLoaded", function(){
         document.querySelector("#result").innerHTML = inputText.toLowerCase()
     })
 
+    document.querySelector("#btn-primeira-letra").addEventListener("click", function(){
+        let inputText = document.querySelector("#input-text").value
+        let inputTextFormatado = inputText.charAt(0).toUpperCase() + inputText.slice(1);
+        document.querySelector("#result").innerHTML = inputTextFormatado
+    })
+
+    document.querySelector("#btn-limpar").addEventListener("click", function(){
+        document.querySelector("#result").innerHTML = ""
+    })
+
 })
+
