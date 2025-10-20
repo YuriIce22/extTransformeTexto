@@ -18,8 +18,16 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
     document.querySelector("#btn-limpar").addEventListener("click", function(){
-        document.querySelector("#result").innerHTML = " "
+        document.querySelector("#result").innerHTML = ""
     })
+
+    document.querySelector("#btn-inverter").addEventListener("click", function(){
+        let inputText = document.querySelector("#input-text").value
+        let inputTextReverse = inputText.split('').reverse().join('')
+        document.querySelector("#result").innerHTML = inputTextReverse
+    })
+
+
 
 })
 

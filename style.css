@@ -9,18 +9,16 @@
     font-weight: 400;
 
     /* Bordas View */
-/*     border: 1px solid black; */
+    /* border: 1px solid black; */
 }
-
-
 
 .container-pai img{
     width: 25px;
 }
 
 .container-pai {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 
     /* Flexbox */
     display: flex;
@@ -39,9 +37,6 @@
     margin-bottom: 3px;
     margin-top: 3px;
 
-
-        
-
     /* FlexBox */
     display: flex;
     justify-content: center;
@@ -59,11 +54,8 @@
     
 }
 
-
-.result{
-    resize: none;
+#btn-inverter {
     width: 200px;
-    height: 70px;
 }
 
 /* Cabeçalho */
@@ -79,12 +71,20 @@
     font-size: 1.10rem;
 }
 
+
+
+/* Resultado */
+
+.result{
+    resize: none;
+    width: 200px;
+    height: 70px;
+}
+
+/* Rodapé */
+
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* Resultado */
-
-/* Rodapé */
