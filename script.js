@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
     document.querySelector("#btn-limpar").addEventListener("click", function(){
-        document.querySelector("#result").innerHTML = ""
+        document.querySelector("#result").innerHTML = " "
     })
 
 })
